@@ -12,8 +12,5 @@ public class HorizontalLinearLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_horizontal_linear_layout);
     }
-    public void relativeLayout(View view) {
-        Intent intent = new Intent(this, RelativeLayout.class);
-        startActivity(intent);
-    }
+
 }
