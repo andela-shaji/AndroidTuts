@@ -53,7 +53,8 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#f83d8fb7"
-        android:text="Horizontal Linear Layout"/>
+        android:text="Horizontal Linear Layout"
+        android:onClick="horizontalView"/>
 
 
 

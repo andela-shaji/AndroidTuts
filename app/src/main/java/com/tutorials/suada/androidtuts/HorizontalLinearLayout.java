@@ -5,19 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class VerticalLinearLayout extends AppCompatActivity {
+public class HorizontalLinearLayout extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vertical_linear_layout);
+        setContentView(R.layout.activity_horizontal_linear_layout);
     }
-
-    public void horizontalView(View view) {
-        Intent intent = new Intent(this, HorizontalLinearLayout.class);
+    public void relativeLayout(View view) {
+        Intent intent = new Intent(this, RelativeLayout.class);
         startActivity(intent);
     }
-
-
-
 }
