@@ -46,27 +46,4 @@
         android:gravity="center"
         android:text="TextView in Android Vertical LinearLayout"
         android:textColor="#fff" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#f83d8fb7"
-        android:text="Horizontal Linear Layout"
-        android:textColor="#fff"
-        android:onClick="horizontalView"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="6dp"
-        android:backgroundTint="#f83d8fb7"
-        android:text="Table Layout"
-        android:onClick="tableLayout"
-        android:textColor="#fff"/>
-
-
-
 </LinearLayout>

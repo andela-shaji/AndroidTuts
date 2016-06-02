@@ -22,15 +22,13 @@
         android:gravity="center"
         android:text="TextView \n\n\nin \n\n\nAndroid \n\n\nHorizontal \n\n\nLinear \n\n\nLayout"
         android:textColor="#fff" />
-    <Button
+    <TextView
         android:layout_width="121dp"
         android:layout_height="match_parent"
         android:layout_marginLeft="16dp"
-        android:backgroundTint="#f83d8fb7"
+        android:background="#f83d8fb7"
         android:gravity="center"
-        android:text="Relative \n\n\nLayout"
-        android:textColor="#fff"
-        android:onClick="relativeLayout"
-        />
+        android:text="TextView \n\n\nin \n\n\nAndroid \n\n\nHorizontal \n\n\nLinear \n\n\nLayout"
+        android:textColor="#fff" />
 
 </LinearLayout>

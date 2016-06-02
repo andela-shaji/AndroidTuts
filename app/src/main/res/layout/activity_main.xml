@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tutorials.suada.androidtuts.MainActivity">
+    <TableRow
+        android:id="@+id/row_a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#f83d8fb7"
+            android:text="VLinear Layout"
+            android:onClick="vLinearLayout"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#f83d8fb7"
+            android:text="HLinear Layout"
+            android:onClick="hLinearLayout"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#f83d8fb7"
+            android:text="Relative Layout"
+            android:onClick="relativeLayout"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#f83d8fb7"
+            android:text="Table Layout"
+            android:onClick="tableLayout"
+            android:textColor="#fff"/>
+
+    </TableRow>
+
+
+
+</TableLayout>
