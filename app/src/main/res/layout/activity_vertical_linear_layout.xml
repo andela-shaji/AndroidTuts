@@ -9,6 +9,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="10dp"
         android:background="#f83d8fb7"
         android:gravity="center"
@@ -17,6 +19,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="16dp"
         android:background="#f83d8fb7"
         android:gravity="center"
@@ -25,6 +29,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="16dp"
         android:background="#f83d8fb7"
         android:gravity="center"
@@ -33,11 +39,22 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="16dp"
         android:background="#f83d8fb7"
         android:gravity="center"
         android:text="TextView in Android Vertical LinearLayout"
         android:textColor="#fff" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#f83d8fb7"
+        android:text="Horizontal Linear Layout"/>
+
 
 
 </LinearLayout>
