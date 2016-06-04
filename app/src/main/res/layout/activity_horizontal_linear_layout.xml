@@ -12,7 +12,7 @@
         android:layout_marginLeft="16dp"
         android:background="#f83d8fb7"
         android:gravity="center"
-        android:text="TextView \n\n\nin \n\n\nAndroid \n\n\nHorizontal \n\n\nLinear \n\n\nLayout"
+        android:text="@string/textview"
         android:textColor="#fff" />
     <TextView
         android:layout_width="121dp"
@@ -20,7 +20,7 @@
         android:layout_marginLeft="16dp"
         android:background="#f83d8fb7"
         android:gravity="center"
-        android:text="TextView \n\n\nin \n\n\nAndroid \n\n\nHorizontal \n\n\nLinear \n\n\nLayout"
+        android:text="@string/textview"
         android:textColor="#fff" />
     <TextView
         android:layout_width="121dp"
@@ -28,7 +28,7 @@
         android:layout_marginLeft="16dp"
         android:background="#f83d8fb7"
         android:gravity="center"
-        android:text="TextView \n\n\nin \n\n\nAndroid \n\n\nHorizontal \n\n\nLinear \n\n\nLayout"
+        android:text="@string/textview"
         android:textColor="#fff" />
 
 </LinearLayout>
