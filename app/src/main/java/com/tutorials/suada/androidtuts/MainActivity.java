@@ -30,4 +30,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, VerticalLinearLayout.class);
         startActivity(intent);
     }
+    public void frameLayout(View view) {
+        Intent intent = new Intent(this, FrameLayout.class);
+        startActivity(intent);
+    }
 }
