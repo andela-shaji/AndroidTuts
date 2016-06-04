@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FrameLayout"></activity>
+        <activity android:name=".FrameLayout" />
+        <activity android:name=".ScrollViewActivity"></activity>
     </application>
 
 </manifest>

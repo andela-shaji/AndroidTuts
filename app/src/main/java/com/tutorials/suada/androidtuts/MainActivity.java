@@ -34,4 +34,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, FrameLayout.class);
         startActivity(intent);
     }
+    public void scrollviewLayout(View view) {
+        Intent intent = new Intent(this, ScrollViewActivity.class);
+        startActivity(intent);
+    }
+
+
 }
