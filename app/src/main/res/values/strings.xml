@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidTuts</string>
+    <string name="textview">TextView \n\n\nin \n\n\nAndroid \n\n\nHorizontal \n\n\nLinear \n\n\nLayout</string>
 </resources>
